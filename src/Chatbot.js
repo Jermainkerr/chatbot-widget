@@ -3,9 +3,6 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 
-
-
-
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
